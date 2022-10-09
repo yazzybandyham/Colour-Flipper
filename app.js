@@ -7,9 +7,9 @@ btn.addEventListener('click', function(){
 
     document.body.style.backgroundColor = colours[randomColour];
     colour.textContent = colours[randomColour];
-})
+});
 
 // randomly cycles through colours array
 function randomNumber() {
     return Math.floor(Math.random() * colours.length);
-}
+};
